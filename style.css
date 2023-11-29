@@ -1,0 +1,110 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.container{
+    margin: 0px auto;
+    width: 90%;
+}
+.section1{
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 50px;
+    height: 100vh;
+    width: 100%;
+}
+.main1 h3{
+    background-color: purple;
+    padding: .5em 1em;
+}
+.main1{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    gap: 1.3rem;
+    margin-top: 2rem;
+}
+.nav li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.main2{
+    color: white;
+    padding: 50px;
+    font-size: 2rem;
+}
+.main2 button{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+}
+.section2{
+    margin: 0px;
+    text-align: center;
+}
+.section3{
+    display: flex;
+}
+.one{
+    width: 50px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+.one img{
+    width: 100%;
+}
+.main4{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.img{
+    width: 50%;
+}
+.img img{
+    width: 100%;
+}
+.sec5{
+    width: 50%;
+}
+.rev{
+    flex-direction: row-reverse;
+}
+.main4 button{
+    background-color: purple;
+}
+@media screen and (max-width:375px){
+*{
+    margin: 10px 0;
+}
+    .section3, .main4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img, .sec5{
+    width: 100%;
+}
+.nav{
+    display: none;
+}
+.main2{
+    padding: .5 .2em;
+}
+.container{
+    width: 100%;
+    margin: 0;
+}
+}
